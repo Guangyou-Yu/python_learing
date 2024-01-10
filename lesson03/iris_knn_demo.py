@@ -29,4 +29,4 @@ if __name__ == '__main__':
     model.fit(X,y)
 
     sample = [5.0,3.6,1.4,0.2]
-    print (model.predict(sample))
+    print (model.predict(sample,k=5))
